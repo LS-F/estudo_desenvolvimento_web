@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfe6e9;
+    color: #00b894;
+    font-family:'Montserrat','Raleway',sans-serif;
+}
+
+.container{
+    margin: 60px 0 0 30%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:center;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 4px;
+}
+
+
+
+.box-login{
+    margin-left: 150px;
+    margin-bottom: 25px;
+    font-size: 2.3rem;
+}
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-box label{
+    font-size: 0.9rem;
+}
+
+.email-box input{
+    margin-top: 5px;
+    border: 2px solid rgb(202, 202, 202);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.email-box input::placeholder{
+    color: rgb(230, 224, 224);
+}
+
+.password-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.password-box{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.password-box input{
+    margin-top: 5px;
+    border: 2px solid rgb(202, 202, 202);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.password-box input::placeholder{
+    color: rgb(230, 224, 224);
+}
+
+.checkbox-login{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.checkbox-color input{
+   width: 12px;
+   height: 12px;
+   cursor: pointer;
+      
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+   
+}
+
+.btn-login input{
+    width: 100px;
+    height: 30px;
+    color:#fff;
+    background-color:#139279;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.new-account{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 20px;
+    width:400px; 
+    height: 50px;
+    background-color: #f7f7f7;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+
+.new-account input{
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    margin-left: 20px;
+    margin-right: 40px;
+    color: #139279;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+   
